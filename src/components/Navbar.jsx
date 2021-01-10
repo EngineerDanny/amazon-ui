@@ -1,19 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Navbar = () => {
-    return (
-        <div>
-            {/* amazon-logo */}
-            
-            {/* search-input */}
-            {/* search-icon-btn */}
-            {/* sign */}
-            {/* orders */}
-            {/* prime */}
+  return (
+    <div className="navbar">
+      {/* amazon-logo */}
+      <img src="../" alt=""/>
 
-            
-        </div>
-    )
-}
+      {/* search-input */}
+      {/* search-icon-btn */}
+      {/* sign */}
+      {/* orders */}
+      {/* prime */}
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
