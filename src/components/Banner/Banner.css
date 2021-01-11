@@ -1,0 +1,13 @@
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img {
+  height: 500px;
+  width: 1200px;
+  max-width: 1150px;
+  object-fit: cover;
+  margin: auto;
+}
