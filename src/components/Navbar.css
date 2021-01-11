@@ -1,12 +1,62 @@
 .navbar {
-  height: 50px;
+  height: 65px;
   width: 100%;
   background-color: black;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 4 10px;
 }
 
 .logo {
   height: 30px;
-  display: block;
-  object-fit: contain;
+  width: 80px;
+  object-fit: fill;
+  margin: 17px 10px 5px 10px;
+}
+
+.navbar > input {
+  flex: 1;
+  padding: 2px 5px;
+  height: 20px;
+
+  border: none;
+}
+
+.search-icon {
+  background-color: rgb(255, 196, 0);
+
+  color: black;
+}
+
+.wlc-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.wlc-section > .line-1 {
+  font-size: 10px;
+}
+
+.wlc-section > .line-2 {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.cart-count {
+  font-size: 10px;
+}
+
+.cart-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-count{
+  margin: 0 10px;
+  font-weight: bolder;
+  font-size: 12px;
 }
