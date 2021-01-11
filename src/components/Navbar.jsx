@@ -1,16 +1,19 @@
 import React from "react";
-import "./Navbar.css"
+import "./Navbar.css";
+import SearchIcon from "@material-ui/icons/Search";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       {/* amazon-logo */}
-      {/* <img
+      <img
         className="logo"
         src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
         alt="Amazon Logo"
-      /> */}
-      <h1>Hellow</h1>
+      />
+
+      <input type="text" />
+      <SearchIcon className="search-icon" />
       {/* search-input */}
       {/* search-icon-btn */}
       {/* sign */}
