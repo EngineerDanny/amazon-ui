@@ -1,0 +1,12 @@
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  height: 20%;
+  display: block;
+  object-fit: contain;
+}
