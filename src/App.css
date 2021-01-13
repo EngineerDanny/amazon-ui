@@ -10,6 +10,7 @@
   width: 1200px;
   max-width: 1150px;
   object-fit: cover;
+  z-index: -1;
   margin: auto;
 }
 
@@ -17,3 +18,4 @@
   background-color: red;
   z-index: 1;
 }
+
