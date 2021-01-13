@@ -1,6 +1,9 @@
-.product-container {
+.product {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
 }
 
 .product-header {

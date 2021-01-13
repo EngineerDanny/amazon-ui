@@ -3,14 +3,14 @@ import "./Product.css";
 
 const Product = () => {
   return (
-    <div className="product-container">
+    <div className="product">
       <div className="product-header">
         {/* title */}
         <p className="title">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, at.
         </p>
         {/* price */}
-        <span>23.35</span>
+        <strong>23.35</strong>
         {/* stars */}
         <span>⭐️⭐️⭐️⭐️⭐️</span>
       </div>
