@@ -1,0 +1,14 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-container > img {
+  height: 300px;
+  width: 290px;
+}
