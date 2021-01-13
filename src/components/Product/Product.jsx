@@ -10,7 +10,7 @@ const Product = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, at.
         </p>
         {/* price */}
-        <strong>23.35</strong>
+        <strong>$23.35</strong>
         {/* stars */}
         <span>⭐️⭐️⭐️⭐️⭐️</span>
       </div>

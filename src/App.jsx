@@ -18,7 +18,10 @@ function App() {
       {/* products */}
       <div className="gen-product-container">
         <Product />
+        <Product />
       </div>
+
+    
     </div>
   );
 }

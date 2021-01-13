@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: -200px;
+  z-index: -1;
 }
 
 .banner-img {
@@ -10,12 +11,10 @@
   width: 1200px;
   max-width: 1150px;
   object-fit: cover;
-  z-index: -1;
   margin: auto;
 }
 
 .gen-product-container {
-  background-color: red;
-  z-index: 1;
+  display: flex;
+  z-index: 100;
 }
-
