@@ -7,17 +7,25 @@ const Product = () => {
       <div className="product-header">
         {/* title */}
         <p className="title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, at.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
+          culpa alias aliquid quo similique veritatis enim inventore explicabo
+          dolores, minima porro magni molestiae esse atque animi, ipsum quos!
+          Iste.
         </p>
+
         {/* price */}
-        <strong>23.35</strong>
+        <p>
+          <small>$</small>
+          <strong>23.35</strong>
+        </p>
+
         {/* stars */}
         <span>⭐️⭐️⭐️⭐️⭐️</span>
       </div>
 
       {/* img */}
       <img
-        src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
+        src="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
         alt="Fuji"
       />
       {/* add-to-basket */}

@@ -19,6 +19,7 @@ function App() {
       <div className="gen-product-container">
         <Product />
         <Product />
+        <Product />
       </div>
 
     
