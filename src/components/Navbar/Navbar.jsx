@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Search, ShoppingBasket } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -19,11 +20,12 @@ const Navbar = () => {
 
       {/* sign */}
 
+      <Link to="/login" className="wlc-section-link">
         <div className="wlc-section">
           <span className="line-1">Hello,</span>
           <span className="line-2">Sign In</span>
         </div>
-     
+      </Link>
 
       {/* orders */}
       <div className="wlc-section">

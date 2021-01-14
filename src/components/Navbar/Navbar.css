@@ -29,6 +29,11 @@
   color: black;
 }
 
+.wlc-section-link{
+  text-decoration: none;
+  color: white;
+}
+
 .wlc-section {
   display: flex;
   flex-direction: column;
