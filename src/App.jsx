@@ -21,7 +21,15 @@ function App() {
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
-          price={23.35}
+          price={103.95}
+          ratings={4}
+          imgUrl="https://images-na.ssl-images-amazon.com/images/I/51yb4HntK1L.jpg"
+        />
+        <Product
+          title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
+          culpa alias aliquid quo similique veritatis enim inventore explicabo
+          dolores."
+          price={133.35}
           ratings={4}
           imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
         />
@@ -29,7 +37,18 @@ function App() {
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
-          price={23.35}
+          price={3.35}
+          ratings={4}
+          imgUrl="https://images-na.ssl-images-amazon.com/images/I/41tL2drLy3L.jpg"
+        />
+      </div>
+
+      <div className="gen-product-container">
+        <Product
+          title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
+          culpa alias aliquid quo similique veritatis enim inventore explicabo
+          dolores."
+          price={23}
           ratings={4}
           imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
         />
@@ -37,7 +56,7 @@ function App() {
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
-          price={23.35}
+          price={35}
           ratings={4}
           imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
         />
@@ -48,26 +67,7 @@ function App() {
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
-          price={23.35}
-          ratings={4}
-          imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
-        />
-        <Product
-          title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
-          culpa alias aliquid quo similique veritatis enim inventore explicabo
-          dolores."
-          price={23.35}
-          ratings={4}
-          imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
-        />
-      </div>
-
-      <div className="gen-product-container">
-        <Product
-          title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
-          culpa alias aliquid quo similique veritatis enim inventore explicabo
-          dolores."
-          price={23.35}
+          price={545}
           ratings={4}
           imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
         />
