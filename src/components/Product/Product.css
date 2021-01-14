@@ -44,6 +44,9 @@
   margin: 20px 0;
 }
 
-.ratings{
-display: flex;
+.ratings {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
 }
