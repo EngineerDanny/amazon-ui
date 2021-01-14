@@ -50,7 +50,7 @@ function App() {
           dolores."
           price={23}
           ratings={4}
-          imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
+          imgUrl="https://images-na.ssl-images-amazon.com/images/I/91Cx6VJTmtL._AC_UY879_.jpg"
         />
         <Product
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
@@ -69,7 +69,7 @@ function App() {
           dolores."
           price={545}
           ratings={4}
-          imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
+          imgUrl="https://images-na.ssl-images-amazon.com/images/I/61A74GGbj5L._AC_SX679_.jpg"
         />
       </div>
     </div>
