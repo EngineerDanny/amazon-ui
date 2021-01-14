@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product.css";
 
-const Product = () => {
+const Product = ({ title, price, starCount, imgUrl }) => {
   return (
     <div className="product">
       <div className="product-header">
@@ -9,12 +9,11 @@ const Product = () => {
         <p className="title">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
-          dolores, minima porro magni molestiae esse atque animi, ipsum quos!
-          Iste.
+          dolores.
         </p>
 
         {/* price */}
-        <p>
+        <p className="price">
           <small>$</small>
           <strong>23.35</strong>
         </p>

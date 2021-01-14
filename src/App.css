@@ -1,5 +1,6 @@
 .banner-container {
   display: flex;
+
   justify-content: center;
   align-items: center;
   margin-bottom: -200px;
@@ -16,5 +17,7 @@
 
 .gen-product-container {
   display: flex;
+  flex-direction: row;
   z-index: 100;
+
 }

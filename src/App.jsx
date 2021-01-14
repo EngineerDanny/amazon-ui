@@ -17,12 +17,26 @@ function App() {
       </div>
       {/* products */}
       <div className="gen-product-container">
-        <Product />
+        <Product
+          title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
+          culpa alias aliquid quo similique veritatis enim inventore explicabo
+          dolores."
+          price={23.35}
+          starCount={4}
+          imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
+        />
         <Product />
         <Product />
       </div>
 
-    
+      <div className="gen-product-container">
+        <Product />
+        <Product />
+      </div>
+
+      <div className="gen-product-container">
+        <Product />
+      </div>
     </div>
   );
 }

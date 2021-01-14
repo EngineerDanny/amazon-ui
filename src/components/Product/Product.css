@@ -1,26 +1,35 @@
 .product {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   height: 400px;
+  width: 100%;
   background-color: white;
-  margin: 10px;
+  margin: 5px 15px 29px 10px;
   padding: 10px;
 }
 
 .product-header {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.title{
+.title {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3; /* number of lines to show */
   -webkit-box-orient: vertical;
+}
 
+.price {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
 }
 
 .product > img {
@@ -29,7 +38,7 @@
   object-fit: fill;
 }
 
-.product > button{
+.product > button {
   background-color: rgb(255, 187, 0);
   border: 1px solid black;
   margin: 20px 0;
