@@ -2,8 +2,11 @@ import React from "react";
 import Product from "../../components/Product/Product";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Home.css";
+import { useStateValue } from "../../providers/StateProvider";
 
 const Home = () => {
+  const baskt = useStateValue();
+  console.log(baskt,"This is the value ");
   return (
     <div>
       {/* Navbar */}
