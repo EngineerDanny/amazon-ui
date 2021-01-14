@@ -18,6 +18,9 @@ const Navbar = () => {
       <Search className="search-icon" />
 
       {/* sign */}
+     {/* <Link>
+     </Link> */}
+
       <div className="wlc-section">
         <span className="line-1">Hello,</span>
         <span className="line-2">Sign In</span>
