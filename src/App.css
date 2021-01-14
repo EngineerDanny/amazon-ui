@@ -1,6 +1,5 @@
 .banner-container {
   display: flex;
-
   justify-content: center;
   align-items: center;
   margin-bottom: -200px;
@@ -9,8 +8,7 @@
 
 .banner-img {
   height: 500px;
-  width: 1200px;
-  max-width: 1150px;
+  width: 100%;
   object-fit: cover;
   margin: auto;
 }

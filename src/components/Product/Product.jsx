@@ -6,16 +6,12 @@ const Product = ({ title, price, starCount, imgUrl }) => {
     <div className="product">
       <div className="product-header">
         {/* title */}
-        <p className="title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
-          culpa alias aliquid quo similique veritatis enim inventore explicabo
-          dolores.
-        </p>
+        <p className="title">{title}</p>
 
         {/* price */}
         <p className="price">
           <small>$</small>
-          <strong>23.35</strong>
+          <strong>{price}</strong>
         </p>
 
         {/* stars */}
@@ -23,10 +19,7 @@ const Product = ({ title, price, starCount, imgUrl }) => {
       </div>
 
       {/* img */}
-      <img
-        src="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
-        alt="Fuji"
-      />
+      <img src={imgUrl} alt="Fuji" />
       {/* add-to-basket */}
       <button>Add to basket</button>
     </div>
