@@ -1,6 +1,6 @@
 //initializing the state with empty values
 export const initialState = {
-  basket: [],
+  basket: ["b","a"],
   user: null,
 };
 
