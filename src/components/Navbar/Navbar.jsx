@@ -2,8 +2,12 @@ import React from "react";
 import "./Navbar.css";
 import { Search, ShoppingBasket } from "@material-ui/icons";
 import { Link } from "react-router-dom";
+import { useStateValue } from "../../providers/StateProvider";
 
 const Navbar = () => {
+  const [{ basket }] = useStateValue();
+  console.log(basket, "This is the value ");
+
   return (
     <div className="navbar">
       {/* amazon-logo */}
@@ -41,7 +45,7 @@ const Navbar = () => {
 
       <div className="cart-section">
         <ShoppingBasket />
-        <span className="cart-count">0</span>
+        <span className="cart-count">{basket.length}</span>
       </div>
     </div>
   );
