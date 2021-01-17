@@ -5,8 +5,8 @@ import "./Home.css";
 import { useStateValue } from "../../providers/StateProvider";
 
 const Home = () => {
-//   const baskt = useStateValue();
-//   console.log(baskt,"This is the value ");
+  const [{basket}, funct] = useStateValue();
+  console.log(basket,"This is the value ");
   return (
     <div>
       {/* Navbar */}
