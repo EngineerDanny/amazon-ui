@@ -19,7 +19,7 @@ const Home = () => {
       {/* products */}
       <div className="gen-product-container">
         <Product
-          key="0"
+          key={0}
           title="Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
@@ -28,7 +28,7 @@ const Home = () => {
           imgUrl="https://images-na.ssl-images-amazon.com/images/I/51yb4HntK1L.jpg"
         />
         <Product
-          key="1"
+          key={1}
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
@@ -37,7 +37,7 @@ const Home = () => {
           imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
         />
         <Product
-          key="2"
+          key={2}
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
@@ -49,7 +49,7 @@ const Home = () => {
 
       <div className="gen-product-container">
         <Product
-          key="3"
+          key={3}
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
@@ -58,7 +58,7 @@ const Home = () => {
           imgUrl="https://images-na.ssl-images-amazon.com/images/I/91Cx6VJTmtL._AC_UY879_.jpg"
         />
         <Product
-          key="4"
+          key={4}
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."
@@ -70,7 +70,7 @@ const Home = () => {
 
       <div className="gen-product-container">
         <Product
-          key="5"
+          key={5}
           title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
           culpa alias aliquid quo similique veritatis enim inventore explicabo
           dolores."

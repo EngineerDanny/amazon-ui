@@ -1,7 +1,24 @@
 import React from "react";
 import "./Product.css";
+import reducer, { initialState } from "../../providers/reducer";
 
 const Product = ({ title, price, ratings, imgUrl }) => {
+  function addToBasket() {
+    //for the action type, it contains the action
+    //type and the obj item
+ 
+    const action = {
+      type: "ADD_TO_BASKET",
+      item: {
+        title: title,
+        price: price,
+        ratings: ratings,
+        imgUrl: imgUrl,
+      },
+    };
+    reducer(initialState, action);
+  }
+
   return (
     <div className="product">
       <div className="product-header">
@@ -27,7 +44,7 @@ const Product = ({ title, price, ratings, imgUrl }) => {
       {/* img */}
       <img src={imgUrl} alt="Fuji" />
       {/* add-to-basket */}
-      <button>Add to basket</button>
+      <button onClick={addToBasket}>Add to basket</button>
     </div>
   );
 };

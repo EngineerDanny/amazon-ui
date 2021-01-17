@@ -1,11 +1,11 @@
 //initializing the state with empty values
 export const initialState = {
-  basket: ["b","a"],
+  basket: [],
   user: null,
 };
 
 const reducer = (state, action) => {
-  console.log(action);
+  console.log(action, "This is the action");
 
   switch (action.type) {
     case "ADD_TO_BASKET":
