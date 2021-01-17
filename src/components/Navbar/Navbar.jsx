@@ -6,7 +6,6 @@ import { useStateValue } from "../../providers/StateProvider";
 
 const Navbar = () => {
   const [{ basket }] = useStateValue();
-  console.log(basket, "This is the value ");
 
   return (
     <div className="navbar">

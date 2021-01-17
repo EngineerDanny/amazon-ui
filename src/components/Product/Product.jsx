@@ -1,12 +1,14 @@
 import React from "react";
 import "./Product.css";
-import reducer, { initialState } from "../../providers/reducer";
+import { useStateValue } from "../../providers/StateProvider";
 
 const Product = ({ title, price, ratings, imgUrl }) => {
+  const dispatch = useStateValue()[1];
+
   function addToBasket() {
     //for the action type, it contains the action
     //type and the obj item
- 
+
     const action = {
       type: "ADD_TO_BASKET",
       item: {
@@ -16,7 +18,7 @@ const Product = ({ title, price, ratings, imgUrl }) => {
         imgUrl: imgUrl,
       },
     };
-    reducer(initialState, action);
+    dispatch(action);
   }
 
   return (
