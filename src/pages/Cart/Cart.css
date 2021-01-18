@@ -14,3 +14,10 @@
   width: 100%;
   object-fit: contain;
 }
+
+.checkout-btn {
+    background-color: rgb(255, 187, 0);
+    border: 1px solid black;
+    margin: 20px 0;
+    padding: 2px 35px;
+  }
