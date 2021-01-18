@@ -2,16 +2,17 @@ import React from "react";
 import "./Product.css";
 import { useStateValue } from "../../providers/StateProvider";
 
-const Product = ({ title, price, ratings, imgUrl }) => {
+const Product = ({ id, title, price, ratings, imgUrl }) => {
   const dispatch = useStateValue()[1];
 
   function addToBasket() {
     //for the action type, it contains the action
     //type and the obj item
 
-    const action = { 
+    const action = {
       type: "ADD_TO_BASKET",
       item: {
+        id: id,
         title: title,
         price: price,
         ratings: ratings,
