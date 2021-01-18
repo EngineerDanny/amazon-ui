@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import "./Cart.css";
+import CartProduct from "../../components/CartProduct/CartProduct";
 
 const Cart = () => {
   return (
@@ -12,9 +13,10 @@ const Cart = () => {
         <div className="cart-left-section">
           {/* Image contains the advert */}
           <img src="" alt="" className="cart-banner-img" />
-
           <h1 className="header-text">Your Shopping Basket</h1>
-          
+
+          {/* The list of checkout products will be shown here */}
+          <CartProduct/>
         </div>
         <div className="cart-right-section"></div>
       </div>
