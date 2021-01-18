@@ -31,12 +31,14 @@ const Cart = () => {
           />
         </div>
         <div className="cart-right-section">
-          <h3>Subtotal (1 items) : $11.96</h3>
-          <div className="checkbox-gift-section">
-            <input type="checkbox" name="Gift" id="" />
-            <small>This order contains a gift</small>
+          <div className="sub-total-section">
+            <h3>Subtotal (1 items) : $11.96</h3>
+            <div className="checkbox-gift-section">
+              <input type="checkbox" name="Gift" id="" />
+              <small>This order contains a gift</small>
+            </div>
+            <button className="checkout-btn">Proceed to Checkout</button>
           </div>
-          <button className="checkout-btn">Proceed to Checkout</button>
         </div>
       </div>
     </div>

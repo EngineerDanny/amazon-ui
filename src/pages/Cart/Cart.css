@@ -16,8 +16,18 @@
 }
 
 .checkout-btn {
-    background-color: rgb(255, 187, 0);
-    border: 1px solid black;
-    margin: 20px 0;
-    padding: 2px 35px;
-  }
+  background-color: rgb(255, 187, 0);
+  border: 1px solid black;
+  margin: 20px 0;
+  padding: 2px 35px;
+}
+
+.cart-right-section {
+  background-color: white;
+}
+
+.sub-total-section {
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+}
