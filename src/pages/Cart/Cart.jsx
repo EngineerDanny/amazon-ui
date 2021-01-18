@@ -12,10 +12,14 @@ const Cart = () => {
         {/* CartLeftSection */}
         <div className="cart-left-section">
           {/* Image contains the advert */}
-          <img src="" alt="" className="cart-banner-img" />
+          <img
+            src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
+            alt="BannerImage"
+            className="cart-banner-img"
+          />
           <h1 className="header-text">Your Shopping Basket</h1>
 
-          {/* The list of checkout products will be shown here */}
+          {/* The list of checkout  products will be shown here */}
           <CartProduct
             id={1}
             title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
@@ -25,7 +29,6 @@ const Cart = () => {
             ratings={4}
             imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
           />
-          
         </div>
         <div className="cart-right-section"></div>
       </div>
