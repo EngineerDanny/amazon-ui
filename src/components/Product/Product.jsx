@@ -9,7 +9,7 @@ const Product = ({ title, price, ratings, imgUrl }) => {
     //for the action type, it contains the action
     //type and the obj item
 
-    const action = {
+    const action = { 
       type: "ADD_TO_BASKET",
       item: {
         title: title,
