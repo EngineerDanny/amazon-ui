@@ -1,9 +1,9 @@
-const CheckoutProduct = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import "./CartProduct.css";
 
-export default CheckoutProduct
+const CheckoutProduct = ({ id, title, price, ratings, imgUrl }) => {
+  return <div>
+      
+  </div>;
+};
+
+export default CheckoutProduct;

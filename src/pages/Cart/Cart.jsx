@@ -16,7 +16,16 @@ const Cart = () => {
           <h1 className="header-text">Your Shopping Basket</h1>
 
           {/* The list of checkout products will be shown here */}
-          <CartProduct/>
+          <CartProduct
+            id={1}
+            title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
+          culpa alias aliquid quo similique veritatis enim inventore explicabo
+          dolores."
+            price={133.35}
+            ratings={4}
+            imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
+          />
+          
         </div>
         <div className="cart-right-section"></div>
       </div>
