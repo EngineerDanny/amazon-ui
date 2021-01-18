@@ -1,0 +1,16 @@
+.cart-product {
+  display: flex;
+  background-color: white;
+}
+
+.cart-product > img {
+  height: 150px;
+  width: 120px;
+  padding: 20px;
+}
+
+.cart-product-content > button {
+  background-color: rgb(255, 187, 0);
+  border: 1px solid black;
+  margin: 20px 0;
+}

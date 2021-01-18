@@ -30,10 +30,10 @@ const Cart = () => {
             imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
           />
         </div>
-        <div className="cart-right-section"></div>
+        <div className="cart-right-section">
+          
+        </div>
       </div>
-
-      <h1>This is the CartPage</h1>
     </div>
   );
 };
