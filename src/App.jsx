@@ -1,5 +1,6 @@
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 import Home from "./pages/Home/Home";
+import Cart from "./pages/Cart/Cart";
 
 function App() {
   return (
@@ -9,6 +10,11 @@ function App() {
           <Route path="/login">
             <h1>This is login page</h1>
           </Route>
+          <Route path="/cart">
+            <Cart />
+          </Route>
+          {/* This last route is the default route which is gonna be used when 
+          All the others fail */}
           <Route path="/">
             <Home />
           </Route>

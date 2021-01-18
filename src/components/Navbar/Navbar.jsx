@@ -10,11 +10,14 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/* amazon-logo */}
-      <img
-        className="logo"
-        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-        alt="Amazon Logo"
-      />
+      <Link to="/" className="logo-link">
+        <img
+          className="logo"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          alt="Amazon Logo"
+        />
+      </Link>
+
       {/* search-input */}
       <input type="text" className="search-input" />
 
@@ -43,7 +46,10 @@ const Navbar = () => {
       </div>
 
       <div className="cart-section">
-        <ShoppingBasket />
+        <Link to="/cart" className="wlc-section-link">
+          <ShoppingBasket />
+        </Link>
+
         <span className="cart-count">{basket.length}</span>
       </div>
     </div>
