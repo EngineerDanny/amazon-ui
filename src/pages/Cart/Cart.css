@@ -1,0 +1,16 @@
+.cart-divider {
+  display: flex;
+}
+
+.cart-left-section {
+  flex: 8;
+}
+
+.cart-right-section {
+  flex: 2;
+}
+
+.cart-banner-img {
+  width: 100%;
+  object-fit: contain;
+}

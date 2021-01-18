@@ -17,7 +17,7 @@ const Cart = () => {
             alt="BannerImage"
             className="cart-banner-img"
           />
-          <h1 className="header-text">Your Shopping Basket</h1>
+          <h2 className="header-text">Your Shopping Basket</h2>
 
           {/* The list of checkout  products will be shown here */}
           <CartProduct
@@ -31,7 +31,7 @@ const Cart = () => {
           />
         </div>
         <div className="cart-right-section">
-          
+          <h3>Subtotal (1 items) : $11.96</h3>
         </div>
       </div>
     </div>

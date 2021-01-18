@@ -4,7 +4,7 @@
 }
 
 .cart-product > img {
-  height: 150px;
+  height: 170px;
   width: 120px;
   padding: 20px;
 }
@@ -13,4 +13,15 @@
   background-color: rgb(255, 187, 0);
   border: 1px solid black;
   margin: 20px 0;
+}
+
+.title {
+  margin-bottom: 5px;
+  font-weight: bold;
+  /* padding: 0;
+    margin: 0; */
+}
+.price {
+  padding: 0;
+  margin: 0;
 }
