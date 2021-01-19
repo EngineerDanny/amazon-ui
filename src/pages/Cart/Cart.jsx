@@ -31,16 +31,17 @@ const Cart = () => {
               <h2 className="header-text">Your Shopping Basket</h2>
 
               {/* The list of checkout  products will be shown here */}
-              
-              <CartProduct
-                id={1}
-                title=" Lorem ipsum dolor sit amet consectetur adipisicing elit. At, iusto
-            culpa alias aliquid quo similique veritatis enim inventore explicabo
-            dolores."
-                price={133.35}
-                ratings={4}
-                imgUrl="https://m.media-amazon.com/images/I/6186EOdL8eL._AC_UL640_FMwebp_QL65_.jpg"
-              />
+              {basket.map((item) => {
+                return (
+                  <CartProduct
+                    id={item.id}
+                    title={item.title}
+                    price={item.price}
+                    ratings={item.ratings}
+                    imgUrl={item.imgUrl}
+                  />
+                );
+              })}
             </div>
             <div className="cart-right-section">
               <div className="sub-total-section">

@@ -19,8 +19,13 @@ const reducer = (state, action) => {
 
     case "REMOVE_FROM_BASKET":
       //Logic for removing item from the list
-      
-      return { state };
+      const newBasket = [...state.basket];
+      const index = newBasket.findIndex((item) => item.id === action.id);
+      if (index >= 0) {
+        newBasket.splice(index, 1);
+      }
+
+      return { ...state, basket: newBasket };
 
     default:
       return state;

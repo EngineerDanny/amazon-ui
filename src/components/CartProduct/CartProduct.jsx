@@ -1,12 +1,23 @@
 import "./CartProduct.css";
+import { useStateValue } from "../../providers/StateProvider";
 
 const CartProduct = ({ id, title, price, ratings, imgUrl }) => {
+  const dispatch = useStateValue()[1];
+
+  function removeFromBasket() {
+    //for the action type, it contains the action
+    //type and the obj item
+
+    const action = {
+      type: "REMOVE_FROM_BASKET",
+      id: id,
+    };
+    dispatch(action);
+  }
+
   return (
     <div className="cart-product">
-      <img
-        src="https://images-na.ssl-images-amazon.com/images/I/51yb4HntK1L.jpg"
-        alt="Product"
-      />
+      <img src={imgUrl} alt="Product" />
 
       <div className="cart-product-content">
         {/* title */}
@@ -27,7 +38,7 @@ const CartProduct = ({ id, title, price, ratings, imgUrl }) => {
             ))}
         </div>
 
-        <button>Remove from basket</button>
+        <button onClick={removeFromBasket}>Remove from basket</button>
       </div>
     </div>
   );
