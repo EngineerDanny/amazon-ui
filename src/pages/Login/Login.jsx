@@ -14,7 +14,7 @@ const Login = () => {
             <span>E-mail</span>
             <input type="email" id="emailId" />
           </div>
-          <div className="password-box">
+          <div className="email-box">
             <span>Password</span>
             <input type="password" id="password" />
           </div>
