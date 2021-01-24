@@ -1,8 +1,16 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .login-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 400px;
 }
 
 .login-container > img {
@@ -14,6 +22,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px;
+  border: 2px solid rgba(128, 128, 128, 0.377);
 }
 .email-box {
   display: flex;
