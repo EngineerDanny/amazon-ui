@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 25px;
 }
 
 .login-container {
@@ -14,8 +15,8 @@
 }
 
 .login-container > img {
-  height: 70px;
-  width: 150px;
+  height: 50px;
+  width: 120px;
 }
 
 .login-box {
@@ -40,7 +41,16 @@
 }
 
 .email-box > input {
-  padding: 4px ;
+  padding: 4px;
+}
+
+.email-box > input :focus {
+  border: 2px solid black;
+}
+
+.email-box > span {
+  font-weight: 700;
+  font-size: 13px;
 }
 
 .sign-in-btn {
