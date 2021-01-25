@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 25px;
 }
 
 .login-container {
@@ -15,8 +14,9 @@
 }
 
 .login-container > img {
-  height: 50px;
+  height: 100px;
   width: 120px;
+  object-fit: cover;
 }
 
 .login-box {

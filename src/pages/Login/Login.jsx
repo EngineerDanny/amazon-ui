@@ -5,7 +5,7 @@ const Login = () => {
     <div className="login">
       <div className="login-container">
         <img
-          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG21.png"
           alt="Amazon logo"
         />
         <div className="login-box">
