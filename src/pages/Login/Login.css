@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 400px;
+  width: 350px;
 }
 
 .login-container > img {
@@ -23,8 +23,15 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  border: 2px solid rgba(128, 128, 128, 0.377);
+  border: 2px solid rgba(226, 217, 217, 0.623);
 }
+
+.login-box > h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
 .email-box {
   display: flex;
   flex-direction: column;
@@ -33,14 +40,30 @@
 }
 
 .email-box > input {
-  padding: 3px 0;
+  padding: 4px ;
 }
 
-.sign-in-btn{
+.sign-in-btn {
   background-color: rgb(255, 187, 60);
-  padding: 3px 0px;
+  padding: 4px 0px;
   margin: 7px 0;
+  border: 2px solid rgb(138, 98, 25);
 }
-.sign-in-btn:hover{
-    background-color: rgba(255, 187, 60, 0.712);
+.sign-in-btn:hover {
+  background-color: rgba(255, 187, 60, 0.7);
+}
+
+.sign-up-btn {
+  padding: 4px 0px;
+
+  border: 2px solid rgb(212, 212, 212);
+  background-color: rgb(241, 240, 240);
+}
+
+.sign-up-btn:hover {
+  background-color: rgb(241, 240, 240, 0.7);
+}
+
+.login-box > small {
+  margin: 10px 0;
 }
